@@ -3,9 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My GitHub Portfolio</title>
+  <title>Wisdom Oke Eke Portfolio</title>
   <style>
-    /* Reset */
     * {
       margin: 0;
       padding: 0;
@@ -13,13 +12,12 @@
     }
 
     body {
-      background-color: #0d0d0d; /* slightly lighter than black */
+      background-color: #0d0d0d;
       color: #e0ffe0;
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      line-height: 1.6;
+      line-height: 1.8;
     }
 
-    /* Header */
     header {
       text-align: center;
       padding: 40px 10px 20px;
@@ -28,24 +26,57 @@
       font-size: 2rem;
       font-weight: bold;
       letter-spacing: 1px;
-      border-bottom: 2px solid rgba(0, 255, 153, 0.3); /* faint green line */
+      border-bottom: 2px solid rgba(0, 255, 153, 0.3);
       box-shadow: 0 0 10px rgba(0, 255, 153, 0.1);
     }
 
-    /* Content */
     .content {
       max-width: 900px;
       margin: 0 auto;
       padding: 50px 20px;
     }
 
-    .summary {
+    /* About Me Section */
+    .summary-container {
+      background-color: #0d0d0d;
+      border-bottom: 2px solid rgba(0, 255, 153, 0.3);
+      box-shadow: 0 0 10px rgba(0, 255, 153, 0.1);
+      padding-bottom: 0;
+      margin-bottom: 60px;
+    }
+
+    .summary-container .summary {
       color: #f5f5f5;
       font-size: 1.1rem;
       text-align: center;
-      padding-bottom: 25px;
-      border-bottom: 2px solid rgba(0, 255, 153, 0.3); /* same faint line */
-      margin-bottom: 60px;
+      padding: 40px 20px 25px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .summary h2 {
+      margin-bottom: 25px;
+      font-size: 1.8rem;
+    }
+
+    .summary p {
+      margin-bottom: 20px;
+    }
+
+    /* Style bullets inside About Me */
+    .summary ul {
+      list-style-type: disc;
+      padding-left: 30px; /* slightly more indent for clarity */
+      margin: 10px 0 20px 0;
+      text-align: left;
+    }
+
+    .summary li {
+      margin-bottom: 12px;
+    }
+
+    .summary li::marker {
+      color: #00ff99;
     }
 
     /* Scripting Section */
@@ -55,7 +86,9 @@
       justify-content: center;
       gap: 20px;
       padding-bottom: 25px;
-      border-bottom: 2px solid rgba(0, 255, 153, 0.3); /* same faint line */
+      border-bottom: 2px solid rgba(0, 255, 153, 0.3);
+      box-shadow: 0 0 10px rgba(0, 255, 153, 0.1);
+      margin-bottom: 60px;
     }
 
     .scripting-section img {
@@ -86,7 +119,6 @@
       margin-top: 60px;
     }
 
-    /* Responsive */
     @media (max-width: 768px) {
       .scripting-section {
         flex-direction: column;
@@ -101,30 +133,47 @@
       .scripting-section a {
         font-size: 1.3rem;
       }
+
+      .summary ul {
+        padding-left: 20px;
+      }
     }
   </style>
 </head>
 <body>
 
-  <!-- Header -->
-  <header>
-    My Portfolio
-  </header>
+  <header>Wisdom Oke Eke Portfolio</header>
 
-  <!-- Main Content -->
   <div class="content">
 
-    <!-- About Me -->
-    <div class="summary">
-      <h2>About Me</h2>
-      <p>
-        I'm a cybersecurity and IT enthusiast with a passion for scripting, automation, 
-        and system management. I love creating efficient workflows and learning how 
-        technology connects everything.
-      </p>
+    <!-- Full-width green line just like header -->
+    <div class="summary-container">
+      <div class="summary">
+        <h2>About Me</h2>
+
+        <p>
+          I’m a Computer Science student passionate about Cybersecurity, Networking, and Python. I enjoy hands-on projects that connect theory with real-world applications.
+        </p>
+
+        <p>
+          I completed a virtual internship in Security Operations (SOC) through Forage, gaining experience in threat detection, log analysis, and incident response. I’ve also done networking projects with Raspberry Pi, including turning a Pi into a wireless access point.
+        </p>
+
+        <p>
+          In Python, I built:
+        </p>
+
+        <ul>
+          <li>A log analyzer that tracks failed and successful login attempts</li>
+          <li>A network port scanner that checks IP addresses for open ports</li>
+        </ul>
+
+        <p>
+          I’m always learning new tools and techniques, and I’m excited to contribute to projects that improve security and network performance.
+        </p>
+      </div>
     </div>
 
-    <!-- Scripting Section -->
     <div class="scripting-section">
       <img src="https://cdn.pixabay.com/photo/2017/06/10/07/18/code-2389236_1280.jpg" alt="Programming Image">
       <a href="#">Scripting and Automation</a>
@@ -132,11 +181,9 @@
 
   </div>
 
-  <!-- Footer -->
   <footer>
-    © 2025 Your Name | Crafted with 💻 & Curiosity
+    © 2025 Wisdom Oke Eke | Crafted with 💻 & Curiosity
   </footer>
 
 </body>
 </html>
-
