@@ -14,9 +14,9 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Wisdoms Ekes Portfolio # the main title
+title: Wisdom Eke Portfolio # the main title
 
-tagline: Aspiring Python developer learning Python, Linux, and cybersecurity. Building practice projects and school assignments. # it will display as the subtitle
+tagline: Aspiring Python developer learning Python, Linux, and cybersecurity. Building practice projects. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
