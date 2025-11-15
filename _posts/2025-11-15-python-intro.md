@@ -4,4 +4,5 @@ date: 2025-11-15
 categories: [Python Projects]
 ---
 
-This category contains all my Python projects, scripts and scenero hands on exercise.
+This category will contain my completed Python projects, detailing the purpose, implementation, and how each project was carried out.
+.
