@@ -1,7 +1,7 @@
 ---
-title: Python Project Overview
-date: 2025-02-10
+title: Python Projects
+date: 2025-11-15
 categories: [Python Projects]
 ---
 
-This is a sample Python project.
+This category contains all my Python projects, scripts and scenero hands on exercise.
